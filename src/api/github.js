@@ -2,7 +2,7 @@ import { Octokit } from "https://esm.sh/@octokit/core";
 import { BASE_URL } from "./baseURL";
 
 const octokit = new Octokit({
-  auth: "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",
+  auth: "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",
 });
 
 export const getIssues = () => {

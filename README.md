@@ -2,9 +2,7 @@
 
 - API
     - GitHub REST API
-    - token을 발급하지 않으면 시간 당 60회로 API 호출 횟수 제한 됨
-    - 개발 시에는 access token을 발급받아 60회 제한 없이 개발 권장
-    - 이후 과제 제출 및 배포단계에서는 access token이 노출되지 않도록 주의
+    ### - token만료로 api데이터 호출이 원활하지 않을 수 있습니다
         
         [GitHub REST API - GitHub Docs](https://docs.github.com/en/rest)   
 

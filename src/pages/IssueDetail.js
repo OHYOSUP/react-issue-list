@@ -23,7 +23,6 @@ function IssueDetail() {
     fetchData();
   }, [id, setIssue]);
 
-  console.log(issue);
   return (
     <IssueDetailWrapper>
       <IssueCard>
